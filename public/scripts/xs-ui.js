@@ -64,7 +64,7 @@ var XSContent = React.createClass({
         <h2 className="xsContentSource">
           {this.props.source}
          </h2>
-         {marked(this.props.children.toString())}
+         {this.props.children}
       </div>
     );
   }
